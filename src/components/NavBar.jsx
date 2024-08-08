@@ -12,21 +12,21 @@ function NavBar() {
                     <button className="navbar-toggler tw-bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
                                 <a className="tw-mr-8 tw-cursor-pointer tw-text-blue-300">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <a className="tw-mr-8 tw-cursor-pointer">About Us</a>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <a className="tw-mr-8 tw-cursor-pointer">Email</a>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <a className="tw-mr-8 tw-cursor-pointer">Pricing</a>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <a className="tw-mr-8 tw-cursor-pointer">Contact Us</a>
                             </li>
                         </ul>
@@ -38,10 +38,8 @@ function NavBar() {
                         <a className="tw-mr-8">Pricing</a>
                         <a className="tw-mr-8">Contact Us</a>
                     </nav> */}
-
                 </div>
             </nav>
-
         </>
     )
 }
