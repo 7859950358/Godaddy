@@ -1,6 +1,30 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 
 
-/* header */
+    /* header */
+    #btn-css:hover{
+        border: 1px solid black;
+    }
+    .header-img{
+        width: 65%;
+        height: 500px;
+    }
+
+    /* Premium */
+    .premium-sect{
+        margin-top: 500px;
+    }
+    .bg-img{
+        background-image: url(./img/intl-img-hp-recore-domains-large-landscape.webp);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .bg-img1{
+        background-image: url(./img/img-hp-recore-co-small.webp);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
